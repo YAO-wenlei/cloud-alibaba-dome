@@ -13,5 +13,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient("account-service")
 public interface AccountFeign {
     @GetMapping("/account/{accountCode}")
-    public ResultData getByCode(@PathVariable("accountCode")String accountCode);
+    ResultData getByCode(@PathVariable("accountCode")String accountCode);
 }

@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableFeignClients(basePackages = "com.yao.account")
+@EnableFeignClients(basePackages = "com.yao.*")
 public class ProductServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProductServiceApplication.class,args);

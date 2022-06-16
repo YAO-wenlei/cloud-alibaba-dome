@@ -1,6 +1,5 @@
 package com.yao.order.serivce;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.yao.order.po.Order;
 
 public interface OrderService {
@@ -11,4 +10,5 @@ public interface OrderService {
     //修改订单
 
     //查询订单
+    Order getByNo(String orderNo);
 }

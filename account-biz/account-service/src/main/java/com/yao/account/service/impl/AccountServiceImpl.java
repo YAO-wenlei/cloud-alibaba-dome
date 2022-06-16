@@ -3,7 +3,6 @@ package com.yao.account.service.impl;
 import com.yao.account.mapper.AccountMapper;
 import com.yao.account.po.Account;
 import com.yao.account.service.AccountService;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

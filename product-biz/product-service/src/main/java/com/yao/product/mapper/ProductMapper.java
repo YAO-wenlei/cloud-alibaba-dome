@@ -1,7 +1,6 @@
 package com.yao.product.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.fasterxml.jackson.databind.ser.Serializers;
 import com.yao.product.po.Product;
 import org.apache.ibatis.annotations.Mapper;
 

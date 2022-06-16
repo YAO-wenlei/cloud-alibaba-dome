@@ -7,13 +7,13 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 59.110.171.26:8848/
+        server-addr: 101.42.160.59:8848/
         service: ${spring.application.name}
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.200.204.228:3306/cloud_alibaba?useUnicode=true&useSSL=false&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&serverTimezone=UTC
+    url: jdbc:mysql://101.42.160.59:3306/cloud_alibaba?useUnicode=true&useSSL=false&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&serverTimezone=UTC
     username: root
-    password: QWer_1234
+    password: ywl123000...
 
 mybatis-plus:
   mapper-locations: classpath:com/yao/account/mapper/*.xml

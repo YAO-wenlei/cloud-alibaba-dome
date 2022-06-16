@@ -22,7 +22,6 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public Product selectByCode(String productCode) {
         LambdaQueryWrapper<Product> eq = new LambdaQueryWrapper<Product>().eq(Product::getProductCode, productCode);
-        Product product = productMapper.selectOne(eq);
-        return product;
+        return productMapper.selectOne(eq);
     }
 }
